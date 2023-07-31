@@ -11,14 +11,7 @@ const routes = [
       title: "Homepage",
     },
   },
-  {
-    path: "/about",
-    name: "About",
-    component: () => import("../pages/About.vue"),
-    meta: {
-      title: "About",
-    },
-  },
+
   {
     path: "/:catchAll(.*)",
     component: () => import("../pages/errors/Notfound.vue"),
