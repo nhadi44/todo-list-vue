@@ -1,8 +1,8 @@
 <template>
     <section id="footer" class="bg-slate-900">
-        <div class="container py-10">
-            <div class="grid grid-cols-2 mb-10 border-b-[1px] pb-8">
-                <div class="col-span-1">
+        <div class="container py-10 px-5 md:px-0">
+            <div class="grid md:grid-cols-2 mb-10 border-b-[1px] py-8">
+                <div class="col-span-1 mb-8 md:mb-0">
                     <div class="flex items-center gap-4 mb-5">
                         <img :src="todoImage" alt="todo-icon" class="h-10 w-10">
                         <span class="text-white text-xl font-bold">Todo List</span>
@@ -12,7 +12,7 @@
                 <div class="col-span-1">
                     <div class="grid grid-cols-3">
                         <div class="text-white col-span-1">
-                            <h5 class="mb-8">Features</h5>
+                            <h5 class="mb-4 md:mb-8">Features</h5>
                             <ul>
                                 <li>
                                     <a href="#features">How It Works</a>
@@ -20,7 +20,7 @@
                             </ul>
                         </div>
                         <div class="text-white col-span-1">
-                            <h5 class="mb-8">Resources</h5>
+                            <h5 class="mb-4 md:mb-8">Resources</h5>
                             <ul>
                                 <li>
                                     <a href="#">Developer API </a>
@@ -29,7 +29,7 @@
                             </ul>
                         </div>
                         <div class="text-white col-span-1">
-                            <h5 class="mb-8">Company</h5>
+                            <h5 class="mb-4 md:mb-8">Company</h5>
                             <ul>
                                 <li class="mb-4">
                                     <a href="#about">About Us</a>

@@ -15,7 +15,7 @@
     </div>
 
     <div class="grid md:grid-cols-3 items-center mb-20">
-        <div class="col-span-2 order-2 md:order-2 ml-20">
+        <div class="col-span-2 order-2 md:order-2 ml-0 md:ml-20">
             <h1 class="text-slate-900 text-xl md:text-4xl mb-3 md:mb-5 font-semibold">Taks Grouping</h1>
             <p class="text-slate-900 text-md md:text-xl">
                 To provide a more organized view, the application allows users to group tasks based on specific categories
